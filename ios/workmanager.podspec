@@ -16,6 +16,7 @@ Flutter Android Workmanager
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.swift_version = '4.2'
+  s.module_map = 'source/module.modulemap'
 
   s.ios.deployment_target = '10.0'
 end
